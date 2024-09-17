@@ -42,6 +42,7 @@ body {
 }
 
 .todoapp {
+	width: 650px;
 	background: #fff;
 	margin: 130px 0 40px 0;
 	position: relative;
@@ -305,10 +306,10 @@ body {
 
 .filters li a {
 	color: inherit;
-	margin: 3px;
+	margin: 5px;
 	padding: 3px 7px;
 	text-decoration: none;
-	border: 1px solid transparent;
+	border: 1px solid gray;
 	border-radius: 3px;
 }
 
@@ -323,14 +324,19 @@ body {
 .clear-completed,
 html .clear-completed:active {
 	float: right;
+	right: -0px;
 	position: relative;
-	line-height: 20px;
+	line-height: 10px;
 	text-decoration: none;
 	cursor: pointer;
+	border: 2px solid gray;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 .clear-completed:hover {
-	text-decoration: underline;
+	/* text-decoration: underline; */
+	background-color: rgb(237, 90, 90);
 }
 
 .info {
